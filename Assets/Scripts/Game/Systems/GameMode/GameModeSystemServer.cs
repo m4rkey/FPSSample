@@ -159,6 +159,9 @@ public class GameModeSystemServer : ComponentSystem
                 case "assault":
                     m_GameMode = new GameModeAssault();
                     break;
+                case "1on1":
+                    m_GameMode = new GameMode1v1();
+                    break;
                 default:
                     m_GameMode = new NullGameMode();
                     break;

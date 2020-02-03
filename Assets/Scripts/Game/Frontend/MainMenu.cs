@@ -58,6 +58,7 @@ public class MainMenu : MonoBehaviour
         uiBinding.gamemode.options.Clear();
         uiBinding.gamemode.options.Add(new TMPro.TMP_Dropdown.OptionData("Assault"));
         uiBinding.gamemode.options.Add(new TMPro.TMP_Dropdown.OptionData("Deathmatch"));
+        uiBinding.gamemode.options.Add(new TMPro.TMP_Dropdown.OptionData("One vs One (Gunfight)"));
         uiBinding.gamemode.RefreshShownValue();
 
         uiBinding.levelname.options.Clear();
